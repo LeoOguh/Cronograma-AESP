@@ -1,319 +1,34 @@
 {
-  "titulo": "CFOIP - Classe D, Nível I - Turma 01 - 2026 - Grupo 19",
   "dias": {
+    "2026-06-07": {
+      "diaSemana": "DOM",
+      "aulas": [
+        { "horario": "07:00 - 07:50", "disciplina": "Ética Militar", "professor": "Maj Silva", "sessao": "1ª Sessão" },
+        { "horario": "07:50 - 08:40", "disciplina": "Direito Administrativo", "professor": "Cap Ferreira", "sessao": "2ª Sessão" },
+        { "horario": "08:40 - 09:30", "disciplina": "Liderança e Gestão", "professor": "Ten Cel Rocha", "sessao": "3ª Sessão" },
+        { "horario": "09:30 - 09:50", "disciplina": "INTERVALO", "professor": "", "sessao": "" },
+        { "horario": "09:50 - 10:40", "disciplina": "Operações Policiais", "professor": "Cap Mendes", "sessao": "4ª Sessão" },
+        { "horario": "10:40 - 11:30", "disciplina": "Técnicas de Abordagem", "professor": "Maj Cardoso", "sessao": "5ª Sessão" },
+        { "horario": "11:30 - 12:20", "disciplina": "Legislação Penal", "professor": "Cap Oliveira", "sessao": "6ª Sessão" },
+        { "horario": "12:20 - 13:30", "disciplina": "INTERVALO", "professor": "", "sessao": "" },
+        { "horario": "13:30 - 14:20", "disciplina": "Inteligência Policial", "professor": "Maj Teixeira", "sessao": "7ª Sessão" },
+        { "horario": "14:20 - 15:10", "disciplina": "Defesa Pessoal", "professor": "Cap Santos", "sessao": "8ª Sessão" },
+        { "horario": "15:10 - 16:00", "disciplina": "Armamento e Tiro", "professor": "Ten Almeida", "sessao": "9ª Sessão" },
+        { "horario": "16:00 - 16:20", "disciplina": "INTERVALO", "professor": "", "sessao": "" },
+        { "horario": "16:20 - 17:10", "disciplina": "Comunicação Operacional", "professor": "Cap Lima", "sessao": "10ª Sessão" },
+        { "horario": "17:10 - 18:00", "disciplina": "Primeiros Socorros", "professor": "Maj Barbosa", "sessao": "11ª Sessão" }
+      ]
+    },
     "2026-06-08": {
-      "diaSemana": "Segunda-feira",
+      "diaSemana": "SEG",
       "aulas": [
-        { "horario": "07:00 - 07:50", "disciplina": "Reunião de Alinhamento", "sessao": "" },
-        { "horario": "07:50 - 08:40", "disciplina": "Reunião de Alinhamento", "sessao": "" },
-        { "horario": "08:40 - 09:00", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "09:00 - 09:50", "disciplina": "Criminologia e Criminalística Aplicada", "professor": "Ronaldo Vitorino Rodrigues", "sessao": "1/8" },
-        { "horario": "09:50 - 10:40", "disciplina": "Criminologia e Criminalística Aplicada", "professor": "Ronaldo Vitorino Rodrigues", "sessao": "2/8" },
-        { "horario": "10:40 - 11:30", "disciplina": "Criminologia e Criminalística Aplicada", "professor": "Ronaldo Vitorino Rodrigues", "sessao": "3/8" },
-        { "horario": "11:30 - 13:00", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "13:00 - 13:50", "disciplina": "Técnicas Operacionais Policiais", "professor": "Helio Sousa Pinho / Felipe Antonio Lima Rodrigues", "sessao": "1/72" },
-        { "horario": "13:50 - 14:40", "disciplina": "Técnicas Operacionais Policiais", "professor": "Helio Sousa Pinho / Felipe Antonio Lima Rodrigues", "sessao": "2/72" },
-        { "horario": "14:40 - 15:10", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "15:10 - 16:00", "disciplina": "Técnicas Operacionais Policiais", "professor": "Helio Sousa Pinho / Felipe Antonio Lima Rodrigues", "sessao": "3/72" },
-        { "horario": "16:00 - 16:40", "disciplina": "Técnicas Operacionais Policiais", "professor": "Helio Sousa Pinho / Felipe Antonio Lima Rodrigues", "sessao": "4/72" },
-        { "horario": "16:40 - 17:30", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "17:30 - 18:20", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "18:20 - 18:40", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "18:40 - 19:30", "disciplina": "Reposição de Aula", "sessao": "" }
-      ]
-    },
-    "2026-06-09": {
-      "diaSemana": "Terça-feira",
-      "aulas": [
-        { "horario": "07:00 - 07:50", "disciplina": "Criminologia e Criminalística Aplicada", "professor": "Ronaldo Vitorino Rodrigues", "sessao": "4/8" },
-        { "horario": "07:50 - 08:40", "disciplina": "Criminologia e Criminalística Aplicada", "professor": "Ronaldo Vitorino Rodrigues", "sessao": "5/8" },
-        { "horario": "08:40 - 09:00", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "09:00 - 09:50", "disciplina": "Defesa Pessoal", "sessao": "1/60" },
-        { "horario": "09:50 - 10:40", "disciplina": "Defesa Pessoal", "sessao": "2/60" },
-        { "horario": "10:40 - 11:30", "disciplina": "Defesa Pessoal", "sessao": "3/60" },
-        { "horario": "11:30 - 13:00", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "13:00 - 13:50", "disciplina": "Postura e Relacionamento Institucional", "sessao": "1/8" },
-        { "horario": "13:50 - 14:40", "disciplina": "Postura e Relacionamento Institucional", "sessao": "2/8" },
-        { "horario": "14:40 - 15:10", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "15:10 - 16:00", "disciplina": "Postura e Relacionamento Institucional", "sessao": "3/8" },
-        { "horario": "16:00 - 16:40", "disciplina": "Postura e Relacionamento Institucional", "sessao": "4/8" },
-        { "horario": "16:40 - 17:30", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "17:30 - 18:20", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "18:20 - 18:40", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "18:40 - 19:30", "disciplina": "Reposição de Aula", "sessao": "" }
-      ]
-    },
-    "2026-06-10": {
-      "diaSemana": "Quarta-feira",
-      "aulas": [
-        { "horario": "07:00 - 07:50", "disciplina": "Condicionamento Físico", "sessao": "1/60" },
-        { "horario": "07:50 - 08:40", "disciplina": "Condicionamento Físico", "sessao": "2/60" },
-        { "horario": "08:40 - 09:00", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "09:00 - 09:50", "disciplina": "Criminologia e Criminalística Aplicada", "professor": "Ronaldo Vitorino Rodrigues", "sessao": "6/8" },
-        { "horario": "09:50 - 10:40", "disciplina": "Criminologia e Criminalística Aplicada", "professor": "Ronaldo Vitorino Rodrigues", "sessao": "7/8" },
-        { "horario": "10:40 - 11:30", "disciplina": "Criminologia e Criminalística Aplicada", "professor": "Ronaldo Vitorino Rodrigues", "sessao": "8/8" },
-        { "horario": "11:30 - 13:00", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "13:00 - 13:50", "disciplina": "Postura e Relacionamento Institucional", "sessao": "5/8" },
-        { "horario": "13:50 - 14:40", "disciplina": "Postura e Relacionamento Institucional", "sessao": "6/8" },
-        { "horario": "14:40 - 15:10", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "15:10 - 16:00", "disciplina": "Postura e Relacionamento Institucional", "sessao": "7/8" },
-        { "horario": "16:00 - 16:40", "disciplina": "Postura e Relacionamento Institucional", "sessao": "8/8" },
-        { "horario": "16:40 - 17:30", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "17:30 - 18:20", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "18:20 - 18:40", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "18:40 - 19:30", "disciplina": "Reposição de Aula", "sessao": "" }
-      ]
-    },
-    "2026-06-11": {
-      "diaSemana": "Quinta-feira",
-      "aulas": [
-        { "horario": "07:00 - 07:50", "disciplina": "Coletivos Criminosos: Análise Crítica", "sessao": "1/8" },
-        { "horario": "07:50 - 08:40", "disciplina": "Coletivos Criminosos: Análise Crítica", "sessao": "2/8" },
-        { "horario": "08:40 - 09:00", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "09:00 - 09:50", "disciplina": "Defesa Pessoal", "sessao": "4/60" },
-        { "horario": "09:50 - 10:40", "disciplina": "Defesa Pessoal", "sessao": "5/60" },
-        { "horario": "10:40 - 11:30", "disciplina": "Defesa Pessoal", "sessao": "6/60" },
-        { "horario": "11:30 - 13:00", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "13:00 - 13:50", "disciplina": "Técnicas Operacionais Policiais", "professor": "Helio Sousa Pinho / Felipe Antonio Lima Rodrigues", "sessao": "5/72" },
-        { "horario": "13:50 - 14:40", "disciplina": "Técnicas Operacionais Policiais", "professor": "Helio Sousa Pinho / Felipe Antonio Lima Rodrigues", "sessao": "6/72" },
-        { "horario": "14:40 - 15:10", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "15:10 - 16:00", "disciplina": "Técnicas Operacionais Policiais", "professor": "Helio Sousa Pinho / Felipe Antonio Lima Rodrigues", "sessao": "7/72" },
-        { "horario": "16:00 - 16:40", "disciplina": "Técnicas Operacionais Policiais", "professor": "Helio Sousa Pinho / Felipe Antonio Lima Rodrigues", "sessao": "8/72" },
-        { "horario": "16:40 - 17:30", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "17:30 - 18:20", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "18:20 - 18:40", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "18:40 - 19:30", "disciplina": "Reposição de Aula", "sessao": "" }
-      ]
-    },
-    "2026-06-12": {
-      "diaSemana": "Sexta-feira",
-      "aulas": [
-        { "horario": "07:00 - 07:50", "disciplina": "Condicionamento Físico", "sessao": "3/60" },
-        { "horario": "07:50 - 08:40", "disciplina": "Condicionamento Físico", "sessao": "4/60" },
-        { "horario": "08:40 - 09:00", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "09:00 - 09:50", "disciplina": "Coletivos Criminosos: Análise Crítica", "sessao": "3/8" },
-        { "horario": "09:50 - 10:40", "disciplina": "Coletivos Criminosos: Análise Crítica", "sessao": "4/8" },
-        { "horario": "10:40 - 11:30", "disciplina": "Coletivos Criminosos: Análise Crítica", "sessao": "5/8" },
-        { "horario": "11:30 - 13:00", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "13:00 - 13:50", "disciplina": "Controle Correicional no Âmbito da Polícia Civil", "sessao": "1/4" },
-        { "horario": "13:50 - 14:40", "disciplina": "Controle Correicional no Âmbito da Polícia Civil", "sessao": "2/4" },
-        { "horario": "14:40 - 15:10", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "15:10 - 16:00", "disciplina": "Controle Correicional no Âmbito da Polícia Civil", "sessao": "3/4" },
-        { "horario": "16:00 - 16:40", "disciplina": "Controle Correicional no Âmbito da Polícia Civil", "sessao": "4/4" },
-        { "horario": "16:40 - 17:30", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "17:30 - 18:20", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "18:20 - 18:40", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "18:40 - 19:30", "disciplina": "Reposição de Aula", "sessao": "" }
-      ]
-    },
-    "2026-06-13": {
-      "diaSemana": "Sábado",
-      "aulas": [
-        { "horario": "07:00 - 07:50", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "07:50 - 08:40", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "08:40 - 09:00", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "09:00 - 09:50", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "09:50 - 10:40", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "10:40 - 11:30", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "11:30 - 13:00", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "13:00 - 13:50", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "13:50 - 14:40", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "14:40 - 15:10", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "15:10 - 16:00", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "16:00 - 16:40", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "16:40 - 17:30", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "17:30 - 18:20", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "18:20 - 18:40", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "18:40 - 19:30", "disciplina": "Reposição de Aula", "sessao": "" }
-      ]
-    },
-    "2026-06-14": {
-      "diaSemana": "Domingo",
-      "aulas": [
-        { "horario": "07:00 - 07:50", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "07:50 - 08:40", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "08:40 - 09:00", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "09:00 - 09:50", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "09:50 - 10:40", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "10:40 - 11:30", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "11:30 - 13:00", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "13:00 - 13:50", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "13:50 - 14:40", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "14:40 - 15:10", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "15:10 - 16:00", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "16:00 - 16:40", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "16:40 - 17:30", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "17:30 - 18:20", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "18:20 - 18:40", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "18:40 - 19:30", "disciplina": "Reposição de Aula", "sessao": "" }
-      ]
-    },
-    "2026-06-15": {
-      "diaSemana": "Segunda-feira",
-      "aulas": [
-        { "horario": "07:00 - 07:50", "disciplina": "Introdução à Investigação Policial", "sessao": "1/4" },
-        { "horario": "07:50 - 08:40", "disciplina": "Introdução à Investigação Policial", "sessao": "2/4" },
-        { "horario": "08:40 - 09:00", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "09:00 - 09:50", "disciplina": "Coletivos Criminosos: Análise Crítica", "sessao": "6/8" },
-        { "horario": "09:50 - 10:40", "disciplina": "Coletivos Criminosos: Análise Crítica", "sessao": "7/8" },
-        { "horario": "10:40 - 11:30", "disciplina": "Coletivos Criminosos: Análise Crítica", "sessao": "8/8" },
-        { "horario": "11:30 - 13:00", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "13:00 - 13:50", "disciplina": "Técnicas Operacionais Policiais", "professor": "Helio Sousa Pinho / Felipe Antonio Lima Rodrigues", "sessao": "9/72" },
-        { "horario": "13:50 - 14:40", "disciplina": "Técnicas Operacionais Policiais", "professor": "Helio Sousa Pinho / Felipe Antonio Lima Rodrigues", "sessao": "10/72" },
-        { "horario": "14:40 - 15:10", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "15:10 - 16:00", "disciplina": "Técnicas Operacionais Policiais", "professor": "Helio Sousa Pinho / Felipe Antonio Lima Rodrigues", "sessao": "11/72" },
-        { "horario": "16:00 - 16:40", "disciplina": "Técnicas Operacionais Policiais", "professor": "Helio Sousa Pinho / Felipe Antonio Lima Rodrigues", "sessao": "12/72" },
-        { "horario": "16:40 - 17:30", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "17:30 - 18:20", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "18:20 - 18:40", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "18:40 - 19:30", "disciplina": "Reposição de Aula", "sessao": "" }
-      ]
-    },
-    "2026-06-16": {
-      "diaSemana": "Terça-feira",
-      "aulas": [
-        { "horario": "07:00 - 07:50", "disciplina": "Introdução à Investigação Policial", "sessao": "3/4" },
-        { "horario": "07:50 - 08:40", "disciplina": "Introdução à Investigação Policial", "sessao": "4/4" },
-        { "horario": "08:40 - 09:00", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "09:00 - 09:50", "disciplina": "Defesa Pessoal", "sessao": "7/60" },
-        { "horario": "09:50 - 10:40", "disciplina": "Defesa Pessoal", "sessao": "8/60" },
-        { "horario": "10:40 - 11:30", "disciplina": "Defesa Pessoal", "sessao": "9/60" },
-        { "horario": "11:30 - 13:00", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "13:00 - 13:50", "disciplina": "Técnicas Operacionais Policiais", "professor": "Helio Sousa Pinho / Felipe Antonio Lima Rodrigues", "sessao": "13/72" },
-        { "horario": "13:50 - 14:40", "disciplina": "Técnicas Operacionais Policiais", "professor": "Helio Sousa Pinho / Felipe Antonio Lima Rodrigues", "sessao": "14/72" },
-        { "horario": "14:40 - 15:10", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "15:10 - 16:00", "disciplina": "Técnicas Operacionais Policiais", "professor": "Helio Sousa Pinho / Felipe Antonio Lima Rodrigues", "sessao": "15/72" },
-        { "horario": "16:00 - 16:40", "disciplina": "Técnicas Operacionais Policiais", "professor": "Helio Sousa Pinho / Felipe Antonio Lima Rodrigues", "sessao": "16/72" },
-        { "horario": "16:40 - 17:30", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "17:30 - 18:20", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "18:20 - 18:40", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "18:40 - 19:30", "disciplina": "Reposição de Aula", "sessao": "" }
-      ]
-    },
-    "2026-06-17": {
-      "diaSemana": "Quarta-feira",
-      "aulas": [
-        { "horario": "07:00 - 07:50", "disciplina": "Aniversário da AESP", "sessao": "" },
-        { "horario": "07:50 - 08:40", "disciplina": "Aniversário da AESP", "sessao": "" },
-        { "horario": "08:40 - 09:00", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "09:00 - 09:50", "disciplina": "Aniversário da AESP", "sessao": "" },
-        { "horario": "09:50 - 10:40", "disciplina": "Aniversário da AESP", "sessao": "" },
-        { "horario": "10:40 - 11:30", "disciplina": "Aniversário da AESP", "sessao": "" },
-        { "horario": "11:30 - 13:00", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "13:00 - 13:50", "disciplina": "Aniversário da AESP", "sessao": "" },
-        { "horario": "13:50 - 14:40", "disciplina": "Aniversário da AESP", "sessao": "" },
-        { "horario": "14:40 - 15:10", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "15:10 - 16:00", "disciplina": "Aniversário da AESP", "sessao": "" },
-        { "horario": "16:00 - 16:40", "disciplina": "Aniversário da AESP", "sessao": "" },
-        { "horario": "16:40 - 17:30", "disciplina": "Aniversário da AESP", "sessao": "" },
-        { "horario": "17:30 - 18:20", "disciplina": "Aniversário da AESP", "sessao": "" },
-        { "horario": "18:20 - 18:40", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "18:40 - 19:30", "disciplina": "Aniversário da AESP", "sessao": "" }
-      ]
-    },
-    "2026-06-18": {
-      "diaSemana": "Quinta-feira",
-      "aulas": [
-        { "horario": "07:00 - 07:50", "disciplina": "Atendimento a Grupos Vulnerabilizados", "sessao": "1/8" },
-        { "horario": "07:50 - 08:40", "disciplina": "Atendimento a Grupos Vulnerabilizados", "sessao": "2/8" },
-        { "horario": "08:40 - 09:00", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "09:00 - 09:50", "disciplina": "Defesa Pessoal", "sessao": "10/60" },
-        { "horario": "09:50 - 10:40", "disciplina": "Defesa Pessoal", "sessao": "11/60" },
-        { "horario": "10:40 - 11:30", "disciplina": "Defesa Pessoal", "sessao": "12/60" },
-        { "horario": "11:30 - 13:00", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "13:00 - 13:50", "disciplina": "Técnicas Operacionais Policiais", "professor": "Helio Sousa Pinho / Felipe Antonio Lima Rodrigues", "sessao": "17/72" },
-        { "horario": "13:50 - 14:40", "disciplina": "Técnicas Operacionais Policiais", "professor": "Helio Sousa Pinho / Felipe Antonio Lima Rodrigues", "sessao": "18/72" },
-        { "horario": "14:40 - 15:10", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "15:10 - 16:00", "disciplina": "Técnicas Operacionais Policiais", "professor": "Helio Sousa Pinho / Felipe Antonio Lima Rodrigues", "sessao": "19/72" },
-        { "horario": "16:00 - 16:40", "disciplina": "Técnicas Operacionais Policiais", "professor": "Helio Sousa Pinho / Felipe Antonio Lima Rodrigues", "sessao": "20/72" },
-        { "horario": "16:40 - 17:30", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "17:30 - 18:20", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "18:20 - 18:40", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "18:40 - 19:30", "disciplina": "Reposição de Aula", "sessao": "" }
-      ]
-    },
-    "2026-06-19": {
-      "diaSemana": "Sexta-feira",
-      "aulas": [
-        { "horario": "07:00 - 07:50", "disciplina": "Condicionamento Físico", "sessao": "5/60" },
-        { "horario": "07:50 - 08:40", "disciplina": "Condicionamento Físico", "sessao": "6/60" },
-        { "horario": "08:40 - 09:00", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "09:00 - 09:50", "disciplina": "Atendimento a Grupos Vulnerabilizados", "sessao": "3/8" },
-        { "horario": "09:50 - 10:40", "disciplina": "Atendimento a Grupos Vulnerabilizados", "sessao": "4/8" },
-        { "horario": "10:40 - 11:30", "disciplina": "Atendimento a Grupos Vulnerabilizados", "sessao": "5/8" },
-        { "horario": "11:30 - 13:00", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "13:00 - 13:50", "disciplina": "Técnicas Operacionais Policiais", "professor": "Helio Sousa Pinho / Felipe Antonio Lima Rodrigues", "sessao": "21/72" },
-        { "horario": "13:50 - 14:40", "disciplina": "Técnicas Operacionais Policiais", "professor": "Helio Sousa Pinho / Felipe Antonio Lima Rodrigues", "sessao": "22/72" },
-        { "horario": "14:40 - 15:10", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "15:10 - 16:00", "disciplina": "Técnicas Operacionais Policiais", "professor": "Helio Sousa Pinho / Felipe Antonio Lima Rodrigues", "sessao": "23/72" },
-        { "horario": "16:00 - 16:40", "disciplina": "Técnicas Operacionais Policiais", "professor": "Helio Sousa Pinho / Felipe Antonio Lima Rodrigues", "sessao": "24/72" },
-        { "horario": "16:40 - 17:30", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "17:30 - 18:20", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "18:20 - 18:40", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "18:40 - 19:30", "disciplina": "Reposição de Aula", "sessao": "" }
-      ]
-    },
-    "2026-06-20": {
-      "diaSemana": "Sábado",
-      "aulas": [
-        { "horario": "07:00 - 07:50", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "07:50 - 08:40", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "08:40 - 09:00", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "09:00 - 09:50", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "09:50 - 10:40", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "10:40 - 11:30", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "11:30 - 13:00", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "13:00 - 13:50", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "13:50 - 14:40", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "14:40 - 15:10", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "15:10 - 16:00", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "16:00 - 16:40", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "16:40 - 17:30", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "17:30 - 18:20", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "18:20 - 18:40", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "18:40 - 19:30", "disciplina": "Reposição de Aula", "sessao": "" }
-      ]
-    },
-    "2026-06-21": {
-      "diaSemana": "Domingo",
-      "aulas": [
-        { "horario": "07:00 - 07:50", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "07:50 - 08:40", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "08:40 - 09:00", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "09:00 - 09:50", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "09:50 - 10:40", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "10:40 - 11:30", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "11:30 - 13:00", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "13:00 - 13:50", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "13:50 - 14:40", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "14:40 - 15:10", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "15:10 - 16:00", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "16:00 - 16:40", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "16:40 - 17:30", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "17:30 - 18:20", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "18:20 - 18:40", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "18:40 - 19:30", "disciplina": "Reposição de Aula", "sessao": "" }
-      ]
-    },
-    "2026-06-22": {
-      "diaSemana": "Segunda-feira",
-      "aulas": [
-        { "horario": "07:00 - 07:50", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "07:50 - 08:40", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "08:40 - 09:00", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "09:00 - 09:50", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "09:50 - 10:40", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "10:40 - 11:30", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "11:30 - 13:00", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "13:00 - 13:50", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "13:50 - 14:40", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "14:40 - 15:10", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "15:10 - 16:00", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "16:00 - 16:40", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "16:40 - 17:30", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "17:30 - 18:20", "disciplina": "Reposição de Aula", "sessao": "" },
-        { "horario": "18:20 - 18:40", "disciplina": "INTERVALO", "sessao": "" },
-        { "horario": "18:40 - 19:30", "disciplina": "Reposição de Aula", "sessao": "" }
+        { "horario": "07:00 - 07:50", "disciplina": "Ética Militar", "professor": "Maj Silva", "sessao": "1ª Sessão" },
+        { "horario": "07:50 - 08:40", "disciplina": "Direito Administrativo", "professor": "Cap Ferreira", "sessao": "2ª Sessão" },
+        { "horario": "08:40 - 09:30", "disciplina": "Liderança e Gestão", "professor": "Ten Cel Rocha", "sessao": "3ª Sessão" },
+        { "horario": "09:30 - 09:50", "disciplina": "INTERVALO", "professor": "", "sessao": "" },
+        { "horario": "09:50 - 10:40", "disciplina": "Operações Policiais", "professor": "Cap Mendes", "sessao": "4ª Sessão" },
+        { "horario": "10:40 - 11:30", "disciplina": "Técnicas de Abordagem", "professor": "Maj Cardoso", "sessao": "5ª Sessão" },
+        { "horario": "11:30 - 12:20", "disciplina": "Legislação Penal", "professor": "Cap Oliveira", "sessao": "6ª Sessão" }
       ]
     }
   }

@@ -177,7 +177,9 @@
       text-transform: uppercase;
       color: var(--muted);
       border-bottom: 1px solid var(--border);
+      border-right: 1px solid rgba(255,255,255,0.05);
     }
+    thead th:last-child { border-right: none; }
     thead th:nth-child(1) { width: 96px; }
     thead th:nth-child(3) { width: 70px; }
     thead th:last-child { text-align: center; }
@@ -186,15 +188,33 @@
     tbody tr:last-child { border-bottom: none; }
     tbody tr.normal:hover { background: rgba(255,255,255,0.02); }
 
-    td { padding: 9px 12px; vertical-align: middle; }
+    td { padding: 9px 12px; vertical-align: middle; border-right: 1px solid rgba(255,255,255,0.04); }
+    td:last-child { border-right: none; }
 
     /* Row types */
     tr.intervalo { opacity: 0.45; }
     tr.reposicao { opacity: 0.55; }
     tr.especial  { background: rgba(249,115,22,0.06); }
     tr.current   {
-      background: var(--orange-s);
-      border-left: 2px solid var(--orange);
+      background: rgba(249,115,22,0.10);
+      box-shadow: inset 3px 0 0 var(--orange);
+    }
+
+    /* Live dot inside current row horario cell */
+    tr.current .horario {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    tr.current .horario::before {
+      content: '';
+      display: inline-block;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--orange);
+      flex-shrink: 0;
+      animation: blink 1.8s infinite;
     }
 
     .horario {
