@@ -77,7 +77,8 @@
       background: var(--card);
       border: 1px solid var(--border);
       border-radius: var(--r);
-      padding: 6px 12px;
+      height: 44px;
+      padding: 0 12px;
       cursor: pointer;
       display: flex;
       align-items: center;
@@ -163,24 +164,21 @@
       box-shadow: inset 3px 0 0 var(--orange);
     }
 
-    /* Live dot inside current row — before the time text */
-    tr.current td:first-child {
-      position: relative;
-    }
-    tr.current td:first-child::before {
-      content: '';
-      display: inline-block;
-      width: 6px;
-      height: 6px;
-      border-radius: 50%;
-      background: var(--orange);
-      margin-right: 5px;
-      vertical-align: middle;
-      flex-shrink: 0;
-      animation: blink 1.8s infinite;
+    tr.current {
+      animation: currentPulse 2s infinite;
     }
 
-    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.3} }
+    @keyframes currentPulse {
+      0%, 100% {
+        background: rgba(249,115,22,0.08);
+        box-shadow: inset 3px 0 0 var(--orange);
+      }
+
+      50% {
+        background: rgba(249,115,22,0.22);
+        box-shadow: inset 3px 0 0 #ffb366;
+      }
+    }
 
     .horario {
       font-size: 10px;
@@ -410,8 +408,7 @@ function render() {
   const now = new Date();
   const nowMin = now.getHours() * 60 + now.getMinutes();
 
-  // Count only real aulas (not intervals/reposicao) for numbering
-  let aulaCount = 0;
+
   const rows = dia.aulas.map(aula => {
     const isInt = aula.disciplina === 'INTERVALO';
     const isRep = aula.disciplina === 'Reposição de Aula';
@@ -425,9 +422,8 @@ function render() {
     else if (isRep)  cls = 'reposicao';
 
     let badgeHtml = '';
-    if (!isInt && !isRep && !isEsp) {
-      aulaCount++;
-      badgeHtml = `<span class="aula-badge">${aulaCount}ª Aula</span>`;
+    if (!isInt && !isRep && !isEsp && aula.sessao) {
+      badgeHtml = `<span class="aula-badge">${aula.sessao}</span>`;
     }
 
     const profHtml = aula.professor ? `<div class="prof">${aula.professor}</div>` : '';
