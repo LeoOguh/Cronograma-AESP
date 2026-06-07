@@ -165,7 +165,7 @@
       overflow: hidden;
     }
 
-    table { width: 100%; border-collapse: collapse; }
+    table { width: 100%; border-collapse: collapse; table-layout: fixed; word-break: break-word; }
 
     thead th {
       background: var(--card);
@@ -178,6 +178,8 @@
       color: var(--muted);
       border-bottom: 1px solid var(--border);
     }
+    thead th:nth-child(1) { width: 96px; }
+    thead th:nth-child(3) { width: 70px; }
     thead th:last-child { text-align: center; }
 
     tbody tr { border-bottom: 1px solid var(--border); }
@@ -319,9 +321,30 @@
       margin-top: 1px;
     }
 
-    @media (max-width: 440px) {
+    @media (max-width: 480px) {
+      .table-wrap { margin: 8px 8px 24px; }
+
+      thead th { padding: 6px 8px; font-size: 9px; }
+
+      td { padding: 8px 8px; }
+
+      .horario { font-size: 11px; }
+
+      .disciplina { font-size: 12px; word-break: break-word; }
+
+      .prof { font-size: 10px; word-break: break-word; }
+
+      .sessao { font-size: 10px; padding: 2px 5px; }
+
+      td:last-child { width: 60px; }
+
+      thead th:nth-child(1) { width: 82px; }
+    }
+
+    @media (max-width: 360px) {
       thead th:last-child, td:last-child { display: none; }
-      .prof { display: none; }
+      thead th:nth-child(1) { width: 76px; }
+      .horario { font-size: 10px; }
     }
   </style>
 </head>
