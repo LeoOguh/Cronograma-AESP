@@ -38,26 +38,14 @@
       padding: 10px 16px;
       display: flex;
       align-items: center;
-      gap: 10px;
-    }
-
-    .logo-dot {
-      width: 8px; height: 8px;
-      border-radius: 50%;
-      background: var(--orange);
-      flex-shrink: 0;
+      justify-content: center;
     }
 
     .header-title {
-      font-size: 13px;
+      font-size: 14px;
       font-weight: 600;
       color: var(--white);
-      flex: 1;
-    }
-
-    .header-sub {
-      font-size: 11px;
-      color: var(--muted);
+      text-align: center;
     }
 
     /* ── NAV ─────────────────────────────────── */
@@ -73,9 +61,9 @@
       background: var(--card);
       border: 1px solid var(--border);
       color: var(--text);
-      width: 32px; height: 32px;
+      width: 44px; height: 44px;
       border-radius: var(--r);
-      font-size: 15px;
+      font-size: 20px;
       cursor: pointer;
       display: flex; align-items: center; justify-content: center;
       transition: background 0.15s, border-color 0.15s;
@@ -122,7 +110,7 @@
       border: none;
       color: #fff;
       padding: 0 14px;
-      height: 32px;
+      height: 44px;
       border-radius: var(--r);
       font-family: inherit;
       font-size: 12px;
@@ -132,30 +120,6 @@
       white-space: nowrap;
     }
     .today-btn:hover { background: var(--orange-d); }
-
-    /* ── LIVE BANNER ─────────────────────────── */
-    .live-banner {
-      display: none;
-      margin: 8px 16px;
-      background: var(--orange-s);
-      border: 1px solid rgba(249,115,22,0.3);
-      border-radius: var(--r);
-      padding: 7px 12px;
-      font-size: 12px;
-      color: var(--text);
-      align-items: center;
-      gap: 8px;
-    }
-    .live-banner.show { display: flex; }
-    .live-dot {
-      width: 6px; height: 6px;
-      border-radius: 50%;
-      background: var(--orange);
-      animation: blink 1.8s infinite;
-      flex-shrink: 0;
-    }
-    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.3} }
-    .live-banner strong { color: var(--orange); font-weight: 600; }
 
     /* ── TABLE ───────────────────────────────── */
     .table-wrap {
@@ -179,10 +143,9 @@
       border-bottom: 1px solid var(--border);
       border-right: 1px solid rgba(255,255,255,0.05);
     }
-    thead th:last-child { border-right: none; }
+    thead th:last-child { border-right: none; text-align: center; }
     thead th:nth-child(1) { width: 96px; }
     thead th:nth-child(3) { width: 70px; }
-    thead th:last-child { text-align: center; }
 
     tbody tr { border-bottom: 1px solid var(--border); }
     tbody tr:last-child { border-bottom: none; }
@@ -200,25 +163,27 @@
       box-shadow: inset 3px 0 0 var(--orange);
     }
 
-    /* Live dot inside current row horario cell */
-    tr.current .horario {
-      display: flex;
-      align-items: center;
-      gap: 6px;
+    /* Live dot inside current row — before the time text */
+    tr.current td:first-child {
+      position: relative;
     }
-    tr.current .horario::before {
+    tr.current td:first-child::before {
       content: '';
       display: inline-block;
-      width: 7px;
-      height: 7px;
+      width: 6px;
+      height: 6px;
       border-radius: 50%;
       background: var(--orange);
+      margin-right: 5px;
+      vertical-align: middle;
       flex-shrink: 0;
       animation: blink 1.8s infinite;
     }
 
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.3} }
+
     .horario {
-      font-size: 12px;
+      font-size: 10px;
       font-weight: 600;
       color: var(--orange);
       white-space: nowrap;
@@ -243,7 +208,7 @@
       margin-top: 2px;
     }
 
-    .sessao {
+    .aula-badge {
       display: inline-block;
       background: rgba(249,115,22,0.1);
       border: 1px solid rgba(249,115,22,0.2);
@@ -254,7 +219,7 @@
       border-radius: 4px;
       white-space: nowrap;
     }
-    tr.especial .sessao { display: none; }
+    tr.especial .aula-badge { display: none; }
 
     /* ── NO DATA ─────────────────────────────── */
     .empty {
@@ -343,39 +308,27 @@
 
     @media (max-width: 480px) {
       .table-wrap { margin: 8px 8px 24px; }
-
       thead th { padding: 6px 8px; font-size: 9px; }
-
       td { padding: 8px 8px; }
-
-      .horario { font-size: 11px; }
-
+      .horario { font-size: 10px; }
       .disciplina { font-size: 12px; word-break: break-word; }
-
       .prof { font-size: 10px; word-break: break-word; }
-
-      .sessao { font-size: 10px; padding: 2px 5px; }
-
+      .aula-badge { font-size: 10px; padding: 2px 5px; }
       td:last-child { width: 60px; }
-
       thead th:nth-child(1) { width: 82px; }
     }
 
     @media (max-width: 360px) {
       thead th:last-child, td:last-child { display: none; }
       thead th:nth-child(1) { width: 76px; }
-      .horario { font-size: 10px; }
+      .horario { font-size: 9px; }
     }
   </style>
 </head>
 <body>
 
 <header>
-  <div class="logo-dot"></div>
-  <div>
-    <div class="header-title">CFOIP · Grupo 19 · 2026</div>
-    <div class="header-sub">Quadro de Trabalhos Semanais</div>
-  </div>
+  <div class="header-title">Grupo Sertão &middot; G19</div>
 </header>
 
 <div class="nav">
@@ -389,11 +342,6 @@
   </div>
   <button class="nav-btn" id="btnNext">&#8594;</button>
   <button class="today-btn" onclick="goToday()">Hoje</button>
-</div>
-
-<div class="live-banner" id="liveBanner">
-  <div class="live-dot"></div>
-  <div id="liveText"></div>
 </div>
 
 <div id="content"></div>
@@ -462,19 +410,8 @@ function render() {
   const now = new Date();
   const nowMin = now.getHours() * 60 + now.getMinutes();
 
-  // live banner
-  const banner = document.getElementById('liveBanner');
-  const liveText = document.getElementById('liveText');
-  if (isToday) {
-    const cur = dia.aulas.find(a => isCurrent(a.horario, nowMin));
-    banner.classList.add('show');
-    liveText.innerHTML = cur
-      ? `Agora: <strong>${cur.disciplina}</strong> &middot; ${cur.horario}`
-      : 'Nenhuma aula em andamento agora.';
-  } else {
-    banner.classList.remove('show');
-  }
-
+  // Count only real aulas (not intervals/reposicao) for numbering
+  let aulaCount = 0;
   const rows = dia.aulas.map(aula => {
     const isInt = aula.disciplina === 'INTERVALO';
     const isRep = aula.disciplina === 'Reposição de Aula';
@@ -482,12 +419,17 @@ function render() {
     const isCur = isToday && isCurrent(aula.horario, nowMin);
 
     let cls = 'normal';
-    if (isCur)  cls = 'current';
-    else if (isInt) cls = 'intervalo';
-    else if (isEsp) cls = 'especial';
-    else if (isRep) cls = 'reposicao';
+    if (isCur)       cls = 'current';
+    else if (isInt)  cls = 'intervalo';
+    else if (isEsp)  cls = 'especial';
+    else if (isRep)  cls = 'reposicao';
 
-    const sessaoHtml = aula.sessao ? `<span class="sessao">${aula.sessao}</span>` : '';
+    let badgeHtml = '';
+    if (!isInt && !isRep && !isEsp) {
+      aulaCount++;
+      badgeHtml = `<span class="aula-badge">${aulaCount}ª Aula</span>`;
+    }
+
     const profHtml = aula.professor ? `<div class="prof">${aula.professor}</div>` : '';
 
     return `<tr class="${cls}">
@@ -496,7 +438,7 @@ function render() {
         <div class="disciplina">${aula.disciplina}</div>
         ${profHtml}
       </td>
-      <td style="text-align:center">${sessaoHtml}</td>
+      <td style="text-align:center">${badgeHtml}</td>
     </tr>`;
   }).join('');
 
@@ -507,7 +449,7 @@ function render() {
           <tr>
             <th>Horário</th>
             <th>Disciplina</th>
-            <th>Sessão</th>
+            <th>Aula</th>
           </tr>
         </thead>
         <tbody>${rows}</tbody>
